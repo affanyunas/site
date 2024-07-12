@@ -31,7 +31,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'notmyidea'
+THEME = 'simple'
 
 
 # Uncomment following line if you want document-relative URLs when developing
