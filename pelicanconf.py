@@ -2,10 +2,10 @@
 AUTHOR = 'Affan Yunas'
 SITENAME = 'Blogsite'
 SITEURL = "https://affanyunas.github.io/me"
-FAVICON = '/static/images/favicon.png'
-SITESUBTITLE = 'This site is for blogging for me'
+FAVICON = 'theme/images/pelican.png'
+SITESUBTITLE = 'This site is for blogging'
 
-# Change Header Area in here - themes by creativitas https://fiverr.com/creativitas
+# Change Header Area in here
 SITESLOGAN = 'Minimals'
 SITE_INTRO = 'Clean Minimalist and SEO themes for Pelician Project'
 
@@ -51,3 +51,10 @@ SITEMAP = {
         "pages": "monthly"
     }
 }
+
+MENUITEMS = (
+    ('Home', '/index.html'),
+    ('About', '/pages/static-page.html'),
+    ('Contact', '/pages/contact-us.html'),
+    # Tambahkan item lainnya di sini
+)
