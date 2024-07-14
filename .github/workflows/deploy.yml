@@ -1,19 +1,12 @@
 name: Deploy Pelican site to GitHub Pages
 
 on:
-  workflow_call:
-    inputs:
-      settings:
-        type: string
-        default: "publishconf.py"
-      output-path:
-        type: string
-        default: "output"
-      cache:
-        type: boolean
-      cache-path:
-        type: string
-        default: "cache"
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -27,6 +20,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,31 +30,22 @@ jobs:
         with:
           python-version: "3.12.4"
 
-      - name: Configure GitHub Pages
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "pelican[markdown]"
+
+      - name: Build site
+        run: pelican content -s pelicanconf.py -t themes/simple -o output
+
+      - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v3
-
-      - name: Install requirements
-        run: pip install "pelican[markdown]"
-
-      - name: Print Pelican settings
-        run: pelican --print-settings > .pelican_settings.json
-        shell: bash
-
-      - name: Cache
-        uses: actions/cache@v3
-        with:
-          key: ${{ runner.os }}-${{ hashFiles('.pelican_settings.json') }}
-          path: ${{ inputs.cache-path }}
-        if: ${{ inputs.cache }}
-
-      - name: Build Pelican site
-        run: pelican --settings ${{ inputs.settings }} --extra-settings SITEURL='"${{ steps.pages.outputs.base_url }}"'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ${{ inputs.output-path }}
+          path: ./output
 
   deploy:
     environment:
