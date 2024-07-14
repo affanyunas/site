@@ -53,8 +53,8 @@ SITEMAP = {
 }
 
 MENUITEMS = (
-    ('Home', '/index.html'),
-    ('About', '/pages/static-page.html'),
-    ('Contact', '/pages/contact-us.html'),
+    ('Home', f'{SITEURL}/index.html'),
+    ('About', f'{SITEURL}/pages/static-page.html'),
+    ('Contact', f'{SITEURL}/pages/contact-us.html'),
     # Tambahkan item lainnya di sini
 )
