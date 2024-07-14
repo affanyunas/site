@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+{% block title %}{{ SITENAME|striptags }} - {{ page.title|striptags }}{%endblock%}
+{% block head %}
+{{ super() }}
+{% if page.summary %}
+<title>{{ page.title }} | {{SITENAME }}</title>
+<meta content='{{ page.title }} | {{SITENAME }}' property='og:site_name'/>
+<meta content='{{ page.title }} | {{SITENAME }}' name='twitter:title'/>
+<meta content='{{ page.title }} | {{SITENAME }}' name='og:title'/>
+<meta name="description" content="{{ page.summary | striptags | safe | truncate(100) }}" />
+<meta content='{{ page.summary | striptags | safe | truncate(100) }}' name='twitter:description'/>
+<meta content='{{ page.summary | striptags | safe | truncate(100) }}' name='facebook:description'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='{{ page.image }}' name='twitter:image'/>
+<meta content='{{ page.image }}' name='og:image'/>
+{% endif %}
+{% import 'translations.html' as translations with context %}
+{% if translations.entry_hreflang(page) %}
+{{ translations.entry_hreflang(page) }}
+{% endif %}
+{% endblock %}
+{% block content %}
+<div class="col-md-8 mx-auto p-3 p-md-5">
+<article>
+<header class="col-md-10 mx-auto p-3 p-md-5 text-center mb-5">
+<h1>{{ page.title }}</h1>
+<h2 class="lead">{{page.summary}}</h2>
+</header>
+{% import 'translations.html' as translations with context %}
+{{ translations.translations_for(page) }}
+{{ page.content }}
+</article>
+</div>
+{% endblock %}

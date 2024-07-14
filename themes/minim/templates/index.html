@@ -1,0 +1,42 @@
+{% extends "start.html" %}
+{% block title %}{{ SITENAME|striptags }}{% endblock %}
+{% block head %}
+{{ super() }}
+<meta content='{{ SITENAME|striptags }}' property='og:site_name'/>
+<meta content='{{ SITENAME|striptags }}' name='twitter:title'/>
+<meta content='{{ SITENAME|striptags }}' name='og:title'/>
+<meta name="description" content="{{SITESUBTITLE}}" />
+<meta content='{{SITESUBTITLE}}' name='twitter:description'/>
+<meta content='{{SITESUBTITLE}}' name='og:description'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='{{ FAVICON }}' name='twitter:image'/>
+<meta content='{{ FAVICON }}' name='og:image'/>
+{% endblock %}
+<div class="container-fluid">
+{% block content %}
+<div class="container">
+<main class="row mt-5 mb-5">
+{% for article in articles_page.object_list %}
+<article class="col-md-6 p-3 p-md-5">
+<header> <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title }}"><img class="img-fluid" width="100%" height="100%" alt="{{ article.title }}" src="{{ article.image }}"/></a>
+<div class="p-3">
+<section>{{ article.summary }}</section>
+<footer>
+<p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p> 
+<address>By
+{% for author in article.authors %}
+<a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+{% endfor %}
+</address>
+</div>
+</footer>
+</article>
+{% endfor %}
+{% if articles_page.has_other_pages() %}
+{% include 'pagination.html' %}
+{% endif %}
+</div>
+</main>
+</div>
+{% endblock content %}

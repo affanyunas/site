@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block title %}{{ SITENAME|striptags }} - {{ category }} category{% endblock %}
+{% block head %}
+  {{ super() }}
+
+  <title>{{ category }} {{ SITENAME|striptags }}</title>
+		<meta content='{{ category }} {{ SITENAME|striptags }}' property='og:site_name'/>
+  		<meta content='{{ category }} {{ SITENAME|striptags }}' name='twitter:title'/>
+		<meta content='{{ category }} {{ SITENAME|striptags }}' name='og:title'/>
+        <meta name="description" content="{{ category }} {{ SITENAME|striptags }} {{SITESUBTITLE}}" />
+		<meta content='{{ category }} {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='twitter:description'/>
+		<meta content='{{ category }} {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='og:description'/>
+		<meta content='summary_large_image' name='twitter:card'/>
+		<meta content='{{ FAVICON }}' name='twitter:image'/>
+		<meta content='{{ FAVICON }}' name='og:image'/>
+
+{% endblock %}
+{% block content_title %}
+<h2>Articles in the {{ category }} category</h2>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags }} - Authors{% endblock %}
+{% block head %}
+  {{ super() }}
+
+  <title>{{ SITENAME|striptags }} - Articles Authors</title>
+		<meta content='{{ SITENAME|striptags }} - Articles Authors' property='og:site_name'/>
+  		<meta content='{{ SITENAME|striptags }} - Articles Authors' name='twitter:title'/>
+		<meta content='{{ SITENAME|striptags }} - Articles Authors' name='og:title'/>
+        <meta name="description" content="Authors {{ SITENAME|striptags }} {{SITESUBTITLE}}" />
+		<meta content='Authors {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='twitter:description'/>
+		<meta content='Authors {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='og:description'/>
+		<meta content='summary_large_image' name='twitter:card'/>
+		<meta content='{{ FAVICON }}' name='twitter:image'/>
+		<meta content='{{ FAVICON }}' name='og:image'/>
+
+{% endblock %}
+{% block content %}
+    <h2>Authors on {{ SITENAME }}</h2>
+    <ul>
+    {% for author, articles in authors|sort %}
+        <li><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

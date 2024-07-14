@@ -1,38 +1,53 @@
+#This is for SEO
 AUTHOR = 'Affan Yunas'
-SITENAME = 'blog'
+SITENAME = 'Blogsite'
 SITEURL = "https://affanyunas.github.io/me"
+FAVICON = '/static/images/favicon.png'
+SITESUBTITLE = 'This site is for blogging for me'
 
-PATH = "content"
+# Change Header Area in here - themes by creativitas https://fiverr.com/creativitas
+SITESLOGAN = 'Minimals'
+SITE_INTRO = 'Clean Minimalist and SEO themes for Pelician Project'
 
+#Configuration yor site
 TIMEZONE = 'Asia/Jakarta'
-
 DEFAULT_LANG = 'en'
+THEME = 'themes/minim'
+PATH = "content"
+PAGE_PATHS = ['pages']
 
-# Feed generation is usually not desired when developing
+# For your static assets folder
+STATIC_PATHS = [
+    'static',
+    'static/images',
+    'static/robots.txt',
+    ]
+EXTRA_PATH_METADATA = {
+    "static/robots.txt": {"path": "robots.txt"},
+    }
+
+#For change Pagination List Posts
+DEFAULT_PAGINATION = 4
+
+# Setup bro
+USE_FOLDER_AS_CATEGORY = True
+DELETE_OUTPUT_DIRECTORY = False
+OUTPUT_RETENTION = [".articles"]
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
-
-DEFAULT_PAGINATION = 10
-
-THEME = 'simple'
-
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
+}

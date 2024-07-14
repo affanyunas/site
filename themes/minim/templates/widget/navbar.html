@@ -1,0 +1,14 @@
+<div class="container-fluid">
+<nav class="row p-3">
+<a class="navbar-brand col-md-4 col-12 text-center" href="{{ SITEURL }}/"><img class="img-fluid" alt="{{SITENAME}}" width="20" height="20" src="{{FAVICON}}"/>
+{{ SITESLOGAN|striptags }}
+</a>
+<div class="col-md-8">
+<div class="row">
+{% for title, link in MENUITEMS %}
+<a href="{{link}}" title="{{title}}" class="col-3">{{title}}</a>
+{% endfor %}
+</div>
+</div>
+</nav>
+</div>

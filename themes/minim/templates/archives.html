@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME|striptags }} - Archives{% endblock %}
+{% block head %}
+{{ super() }}
+<title>{{ SITENAME|striptags }} - Archives</title>
+<meta content='{{ SITENAME|striptags }} - Archives' property='og:site_name'/>
+<meta content='{{ SITENAME|striptags }} - Archives' name='twitter:title'/>
+<meta content='{{ SITENAME|striptags }} - Archives' name='og:title'/>
+<meta name="description" content="Archives{{ SITENAME|striptags }} {{SITESUBTITLE}}" />
+<meta content='Archives {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='twitter:description'/>
+<meta content='Archives{{ SITENAME|striptags }} {{SITESUBTITLE}}' name='og:description'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='{{ FAVICON }}' name='twitter:image'/>
+<meta content='{{ FAVICON }}' name='og:image'/>
+{% endblock %}
+{% block content %}
+<div class="col-md-10 mx-auto p-3 p-md-5 text-center">
+<h2>Archives for {{ SITENAME }}</h2>
+</div>
+<div class="container">
+<div class="row">
+{% for article in dates %}
+<div class="col-md-3 p-3">
+{% if article.image %}
+<a href="{{ SITEURL }}/{{ article.url }}"><img class="img-fluid" alt="{{article.title}} width="100%" height="100%" src="{{article.image}}"/></a>
+{% endif %}
+<div class="p-3">
+<h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+<p>{{article.sumary}}</p>
+</div>
+</div>
+{% endfor %}
+</div>
+</div>
+{% endblock %}

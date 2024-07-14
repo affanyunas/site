@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block title %}{{ SITENAME|striptags }} - {{ tag }} tag{% endblock %}
+{% block head %}
+{{ super() }}
+<title> {{ tag }} {{ SITENAME|striptags }}</title>
+<meta content=' {{ tag }} {{ SITENAME|striptags }} {{ author }}' property='og:site_name'/>
+<meta content=' {{ tag }} {{ SITENAME|striptags }} {{ author }}' name='twitter:title'/>
+<meta content=' {{ tag }} {{ SITENAME|striptags }} {{ author }}' name='og:title'/>
+<meta name="description" content="{{ tag }} {{ SITENAME|striptags }} {{SITESUBTITLE}}" />
+<meta content=' {{ tag }} {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='twitter:description'/>
+<meta content=' {{ tag }} {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='og:description'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='{{ FAVICON }}' name='twitter:image'/>
+<meta content='{{ FAVICON }}' name='og:image'/>
+{% endblock %}
+{% block content_title %}
+<div class="container">
+<h2>Articles tagged with {{ tag }}</h2>
+</div>
+{% endblock %}

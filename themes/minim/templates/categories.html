@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME|striptags }} - Categories{% endblock %}
+{% block head %}
+{{ super() }}
+<title>{{ SITENAME|striptags }} - Categories</title>
+<meta content='{{ SITENAME|striptags }} - Categories' property='og:site_name'/>
+<meta content='{{ SITENAME|striptags }} Categories' name='twitter:title'/>
+<meta content='{{ SITENAME|striptags }} - Categories' name='og:title'/>
+<meta name="description" content="Categories {{ SITENAME|striptags }} {{SITESUBTITLE}}" />
+<meta content='Categories {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='twitter:description'/>
+<meta content='Categories {{ SITENAME|striptags }} {{SITESUBTITLE}}' name='og:description'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='{{ FAVICON }}' name='twitter:image'/>
+<meta content='{{ FAVICON }}' name='og:image'/>
+{% endblock %}
+{% block content %}
+<div class="container">
+<div class="col-md-10 p-3 p-md-5">
+<h2>Categories on {{ SITENAME }}</h2>
+<ul>
+{% for category, articles in categories|sort %}
+<li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+{% endblock %}
