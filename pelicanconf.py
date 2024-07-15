@@ -1,13 +1,13 @@
 #This is for SEO
 AUTHOR = 'Affan Yunas'
 SITENAME = 'Blogsite'
-SITEURL = "https://affanyunas.github.io/me"
+SITEURL = "http://127.0.0.1:8000"
 FAVICON = 'theme/images/pelican.png'
-SITESUBTITLE = 'This site is for blogging'
+SITESUBTITLE = 'Writte every parts'
 
 # Change Header Area in here
-SITESLOGAN = 'Minimals'
-SITE_INTRO = 'Clean Minimalist and SEO themes for Pelician Project'
+SITESLOGAN = 'Blog'
+SITE_INTRO = 'Blogging all the ways down'
 
 #Configuration yor site
 TIMEZONE = 'Asia/Jakarta'
@@ -16,15 +16,6 @@ THEME = 'themes/minim'
 PATH = "content"
 PAGE_PATHS = ['pages']
 
-# For your static assets folder
-STATIC_PATHS = [
-    'static',
-    'static/images',
-    'static/robots.txt',
-    ]
-EXTRA_PATH_METADATA = {
-    "static/robots.txt": {"path": "robots.txt"},
-    }
 
 #For change Pagination List Posts
 DEFAULT_PAGINATION = 4
@@ -54,7 +45,8 @@ SITEMAP = {
 
 MENUITEMS = (
     ('Home', f'{SITEURL}/index.html'),
-    ('About', f'{SITEURL}/pages/static-page.html'),
-    ('Contact', f'{SITEURL}/pages/contact-us.html'),
+    ('All Post', f'{SITEURL}/pages/posts.html'),
+    ('About', f'{SITEURL}/pages/about.html'),
+    ('Tags', f'{SITEURL}/pages/tags.html'),
     # Tambahkan item lainnya di sini
 )
