@@ -1,6 +1,4 @@
-# Workflow for publishing Pelican site to GitHub Pages.
-
-name: Deploy to GitHub Pages
+name: Deploy Pelican site to GitHub Pages
 
 on:
   push:
@@ -18,27 +16,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: '3.12.4'  # Adjust Python version as needed
 
-      - name: Install Pelican and dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install ${{ github.event.inputs.requirements }}
+          pip install "pelican[markdown]"
 
       - name: Build Pelican site
-        run: |
-          pelican content \
-            --settings ${{ github.event.inputs.settings }} \
-            ${GITHUB_TOKEN:+--write-selected-branches \
-            --extra-settings \
-            SITEURL='"${{ github.event.inputs.siteurl || github.event.repository.url }}"' \
-            FEED_DOMAIN='"${{ github.event.inputs.feed_domain || github.event.repository.url }}"' \
-            --output ${{ github.event.inputs.output-path }}
+        run: pelican content --settings pelicanconf.py --output output
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ github.event.inputs.output-path }}
+          publish_dir: ./output
           publish_branch: gh-pages  # Adjust branch name as needed
-
