@@ -27,7 +27,7 @@ jobs:
           pip install "pelican[markdown]"
 
       - name: Build site
-        run: pelican content -s publishconf.py -t themes/graymill -o output
+        run: pelican content -s publicanconf.py -t themes/graymill -o output
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
