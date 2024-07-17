@@ -1,52 +1,54 @@
-#This is for SEO
-AUTHOR = 'Affan Yunas'
-SITENAME = 'Blogsite'
-SITEURL = "http://127.0.0.1:8000"
-FAVICON = 'theme/images/pelican.png'
-SITESUBTITLE = 'Writte every parts'
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
 
-# Change Header Area in here
-SITESLOGAN = 'Blog'
-SITE_INTRO = 'Blogging all the ways down'
+# Basic information
+AUTHOR = u'Affan Yunas'
+AUTHOREMAIL = 'yunas.affan@gmail.com'
+SITENAME = u'Blogsite'
+SITEURL = 'http://127.0.0.1:8000'
 
-#Configuration yor site
+PATH = 'content'
+
 TIMEZONE = 'Asia/Jakarta'
-DEFAULT_LANG = 'en'
-THEME = 'themes/minim'
-PATH = "content"
-PAGE_PATHS = ['pages']
 
+DEFAULT_LANG = u'en'
+THEME = 'themes/graymill'
 
-#For change Pagination List Posts
+# Social widgets
+SOCIAL = (('twitter', 'https://twitter.com/'),
+          ('linkedin', 'https://www.linkedin.com/'),
+          ('github', 'https://github.com/'),
+          ('facebook', 'https://facebook.com/'),
+         )
+
 DEFAULT_PAGINATION = 4
 
-# Setup bro
-USE_FOLDER_AS_CATEGORY = True
-DELETE_OUTPUT_DIRECTORY = False
-OUTPUT_RETENTION = [".articles"]
+SITEDESCRIPTION = 'gabut banget yakin'
+
+# For post-summaries
+DISPLAY_SUMMARY = True
+
+# To display static pages like About, Contact etc.
+DISPLAY_PAGES_ON_MENU = True
+
+MENUITEMS = (('Home', SITEURL),)
+
+# Feed generation is usually not desired when developing
+FEED_ALL_RSS = False
+FEED_ALL_ATOM = False
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-SITEMAP = {
-    "format": "xml",
-    "priorities": {
-        "articles": 0.5,
-        "indexes": 0.5,
-        "pages": 0.5
-    },
-    "changefreqs": {
-        "articles": "monthly",
-        "indexes": "daily",
-        "pages": "monthly"
-    }
-}
 
-MENUITEMS = (
-    ('Home', f'{SITEURL}/index.html'),
-    ('All Post', f'{SITEURL}/pages/posts.html'),
-    ('About', f'{SITEURL}/pages/about.html'),
-    ('Tags', f'{SITEURL}/pages/tags.html'),
-    # Tambahkan item lainnya di sini
-)
+# Favicon (path relative to './content/')
+FAVICON = 'images/favicon.ico'
+
+# To include custom static files like htaccess, robots, PDF files etc. (path relative to './content/')
+STATIC_PATHS = ['images', 'extras']
+EXTRA_PATH_METADATA = {
+    'extras/.htaccess': {'path': '.htaccess'},
+    'extras/robots.txt': {'path': 'robots.txt'},
+}

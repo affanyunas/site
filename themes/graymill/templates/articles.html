@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}All Posts{% endblock %}
+
+{% block content %}
+<h2>Articles</h2>
+<ul>
+  {% for article in articles %}
+    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> <span class="meta">{{ article.date.strftime('%b %d, %Y') }}</span></li>
+  {% endfor %}
+</ul>
+{% endblock %}
