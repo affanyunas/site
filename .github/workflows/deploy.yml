@@ -1,41 +1,44 @@
-name: Deploy Pelican Site
+# Workflow for publishing Pelican site to GitHub Pages.
+
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  # Adjust branch name as needed
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12'  # Adjust Python version as needed
+          python-version: ${{ matrix.python-version }}
 
-      - name: Install requirements
+      - name: Install Pelican and dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install "pelican[markdown]"  # Customize requirements if needed
+          pip install ${{ github.event.inputs.requirements }}
 
       - name: Build Pelican site
         run: |
-          pelican content -s pelicanconf.py -t themes/graymill -o output/
+          pelican content \
+            --settings ${{ github.event.inputs.settings }} \
+            ${GITHUB_TOKEN:+--write-selected-branches \
+            --extra-settings \
+            SITEURL='"${{ github.event.inputs.siteurl || github.event.repository.url }}"' \
+            FEED_DOMAIN='"${{ github.event.inputs.feed_domain || github.event.repository.url }}"' \
+            --output ${{ github.event.inputs.output-path }}
 
       - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git checkout gh-pages || git checkout --orphan gh-pages
-          git rm -rf .
-          cp -r output/* .
-          git add .
-          git commit -m "Deploy Pelican Site"
-          git push -f origin gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ github.event.inputs.output-path }}
+          publish_branch: gh-pages  # Adjust branch name as needed
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
