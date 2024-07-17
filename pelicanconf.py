@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Affan Yunas'
 AUTHOREMAIL = 'yunas.affan@gmail.com'
 SITENAME = u'Blogsite'
-SITEURL = 'https://affanyunas.github.io/site'
+SITEURL = 'https://github.com/affanyunas/site'
 
 PATH = 'content'
 
@@ -44,7 +44,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Favicon (path relative to './content/')
-FAVICON = 'media/favicon/favicon.ico'
+FAVICON = './content/images/icons/favicon.ico'
 
 # To include custom static files like htaccess, robots, PDF files etc. (path relative to './content/')
 STATIC_PATHS = ['images', 'extras']
