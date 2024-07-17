@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Affan Yunas'
 AUTHOREMAIL = 'yunas.affan@gmail.com'
 SITENAME = u'Blogsite'
-SITEURL = 'https://github.com/affanyunas/site'
+SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
 
