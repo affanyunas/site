@@ -1,41 +1,41 @@
-name: Deploy to GitHub Pages
+name: Deploy Pelican Site
 
 on:
   push:
-    branches:
-      - main  # Adjust to your main branch name
-  pull_request:
-    branches:
-      - main  # Adjust to your main branch name
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.4'
+          python-version: '3.12'  # Adjust Python version as needed
 
-      - name: Install dependencies
+      - name: Install requirements
         run: |
           python -m pip install --upgrade pip
-          pip install "pelican[markdown]"
+          pip install "pelican[markdown]"  # Customize requirements if needed
 
-      - name: Build site
-        run: pelican content -s pelicanconf.py -t themes/graymill -o output
+      - name: Build Pelican site
+        run: |
+          pelican content -s pelicanconf.py -t themes/graymill -o output/
 
       - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git checkout gh-pages || git checkout --orphan gh-pages
           git rm -rf .
-          cp -r ../output/* .
+          cp -r output/* .
           git add .
-          git commit -m "Deploy Pelican site to GitHub Pages"
+          git commit -m "Deploy Pelican Site"
           git push -f origin gh-pages
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
