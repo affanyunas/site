@@ -44,7 +44,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Favicon (path relative to './content/')
-FAVICON = 'images/icons/favicon.ico'
+FAVICON = 'media/favicon/favicon.ico'
 
 # To include custom static files like htaccess, robots, PDF files etc. (path relative to './content/')
 STATIC_PATHS = ['images', 'extras']
