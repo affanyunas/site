@@ -1,6 +1,6 @@
 Title: Evolusi Bahasa Pemrograman: Dampak Lisp dan Fortran
 Date:2024-07-19 12:00
-Category: Pemrograman, Sejarah Teknologi
+Category: Teknologi
 Tags: Lisp, Fortran, Bahasa Pemrograman, Evolusi Teknologi, Pemrograman Modern
 Authors: Affan Yunas
 Summary: Dunia pemrograman terus berkembang! Artikel ini membahas bagaimana kemenangan Fortran mempengaruhi pengembangan hardware dan menyebabkan model pemrograman Assembly-like yang dimiliki oleh C menjadi model default. Kita juga akan melihat bagaimana Lisp, meskipun tidak dominan, tetap relevan dalam konteks "mendekatkan diri pada hardware."
