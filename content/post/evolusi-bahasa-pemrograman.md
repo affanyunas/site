@@ -3,8 +3,8 @@ Date:2024-07-19 12:00
 Category: Teknologi
 Tags: Lisp, Fortran, Bahasa Pemrograman
 Authors: Affan Yunas
-Summary: Dunia pemrograman terus berkembang! Artikel ini membahas bagaimana kemenangan Fortran mempengaruhi pengembangan hardware dan menyebabkan model pemrograman Assembly-like yang dimiliki oleh C menjadi model default. Kita juga akan melihat bagaimana Lisp, meskipun tidak dominan, tetap relevan dalam konteks "mendekatkan diri pada hardware."
-Description: Dunia pemrograman bagaikan sebuah petualangan seru yang terus berkembang. Dulu, bahasanya rumit dan bikin pusing, sekarang jadi lebih mudah diakses dan kuat. Evolusi ini mengubah cara kita membuat program, bahkan cara kita berpikir tentang komputasi.
+Summary: Artikel ini membahas evolusi bahasa pemrograman dari Lisp ke C, mengeksplorasi bagaimana perdebatan awal mempengaruhi teknologi pemrograman modern.
+Description: Artikel ini menjelajahi perjalanan evolusi bahasa pemrograman dari awal mula Lisp, yang diperkenalkan pada tahun 1958, hingga bahasa seperti C yang muncul pada 1970-an. Dengan fokus pada perdebatan antara Lisp dan Fortran, artikel ini menjelaskan bagaimana pilihan teknologi awal membentuk paradigma pemrograman saat ini. Dari struktur simbolik Lisp hingga model prosedural Fortran dan C, artikel ini memberikan wawasan mendalam tentang bagaimana perkembangan ini mempengaruhi bahasa pemrograman modern seperti Python dan Java.
 
 ### Pengaruh Kemenangan Fortran
 
