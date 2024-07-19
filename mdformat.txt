@@ -1,0 +1,19 @@
+Title:  Dari Lisp ke C dan Dampaknya pada Pemrograman Modern
+Date: 2024-07-19 12:00
+Category: Pemrograman, Sejarah Teknologi
+Tags: Lisp, Fortran, Bahasa Pemrograman, Evolusi Teknologi, Pemrograman Modern
+Authors: Affan Yunas
+Summary: Dunia pemrograman terus berkembang! Artikel ini mengajak kita ngobrol tentang evolusi bahasa pemrograman, dari perdebatan Lisp vs Fortran hingga pengaruhnya pada bahasa pemrograman modern. Kita akan lihat bagaimana pilihan teknologi di masa lalu bisa berdampak besar dan kenapa programmer harus selalu belajar bahasa-bahasa baru.
+Description: Dunia pemrograman bagaikan sebuah petualangan seru yang terus berkembang. Dulu, bahasanya rumit dan bikin pusing, sekarang jadi lebih mudah diakses dan kuat. Evolusi ini ubah cara kita bikin program, bahkan cara kita mikir tentang komputasi.
+
+Salah satu momen penting dalam sejarah pemrograman adalah perdebatan sengit antara Lisp dan Fortran. Lisp, lahir di tahun 1958, bagaikan puisi dalam dunia pemrograman. Ekspresinya simbolik, mudah dibaca, dan dipahami. Di sisi lain, Fortran, yang muncul di tahun 1957, jago dalam perhitungan numerik. Dia jadi primadona di aplikasi ilmiah dan teknik.
+
+Meskipun Lisp lebih mudah dibaca dan diekspresikan, Fortran yang akhirnya jadi raja. Alasannya, perhitungan numerik saat itu sedang naik daun. Ditambah lagi, Fortran punya dukungan kuat dari vendor hardware dan software, membuatnya lebih mudah diakses para programmer.
+
+Dominasi Fortran berdampak besar pada perkembangan bahasa pemrograman. Bahasa-bahasa yang muncul setelahnya, seperti C dan C++, banyak terinspirasi dari Fortran. Model pemrograman prosedural dan fokus pada manipulasi memori menjadi ciri khas mereka. Bahasa-bahasa ini menawarkan performa yang lebih baik dan kontrol yang lebih besar atas hardware, membuatnya populer untuk pengembangan sistem dan aplikasi berkinerja tinggi.
+
+Namun, fokus pada manipulasi memori dan model prosedural juga punya sisi gelap. Bahasa-bahasa ini sering kali rumit untuk dipelajari dan digunakan, dan mereka rentan terhadap bug dan kerentanan keamanan. Hal ini memicu lahirnya bahasa pemrograman yang lebih abstrak dan tingkat tinggi, seperti Java dan Python, yang menawarkan kemudahan penggunaan dan keamanan yang lebih baik.
+
+Perdebatan antara Lisp dan Fortran adalah contoh menarik bagaimana pilihan teknologi di masa lalu dapat memengaruhi lanskap teknologi saat ini. Meskipun Lisp tidak menjadi bahasa yang dominan, pengaruhnya masih terasa dalam bahasa-bahasa fungsional modern, seperti Haskell dan Erlang.
+
+Evolusi bahasa pemrograman adalah proses yang tak henti-hentinya. Bahasa-bahasa baru terus bermunculan, masing-masing dengan kelebihan dan kekurangannya sendiri. Para programmer harus terus belajar dan beradaptasi dengan bahasa-bahasa baru ini untuk tetap relevan di dunia yang terus berubah.
