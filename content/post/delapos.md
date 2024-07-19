@@ -1,7 +1,7 @@
 Title: Delpaos
 Date: 2024-05-27 12:20
 Category: Teknologi
-Tags: ipsum
+Tags: Post
 Authors: Creativitas
 Summary: Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
 Description: Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
