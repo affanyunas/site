@@ -1,4 +1,4 @@
-Title: Pandangan Saya: Ketidaksetujuan Terhadap LGBT
+Title: Ketidaksetujuan Terhadap LGBT
 Date: 2024-07-21 23:56
 Category: Kontroversi
 Tags: Kontroversi
@@ -6,7 +6,7 @@ Authors: Affan Yunas
 Summary: Membahas alasan ketidaksetujuan terhadap LGBT dari perspektif pribadi.
 Description: Artikel ini membahas pandangan pribadi mengenai ketidaksetujuan terhadap LGBT, termasuk argumen yang mendasari pandangan ini dan dampaknya pada masyarakat.
 
-# Pandangan Saya: Ketidaksetujuan Terhadap LGBT
+# LGBT
 
 Komunitas LGBT (Lesbian, Gay, Bisexual, dan Transgender) telah menjadi topik perdebatan yang signifikan di masyarakat. Meskipun banyak yang mendukung hak-hak LGBT, ada juga yang tidak setuju dengan keberadaan dan praktik LGBT. Artikel ini akan membahas pandangan saya yang tidak setuju dengan LGBT, serta alasan-alasan yang mendasari pandangan ini.
 
