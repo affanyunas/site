@@ -1,16 +1,16 @@
 Title: Ketidaksetujuan Terhadap LGBT
 Date: 2024-07-21 23:56
 Category: Kontroversi
-Tags: Kontroversi
+Tags: LGBT
 Authors: Affan Yunas
 Summary: Membahas alasan ketidaksetujuan terhadap LGBT dari perspektif pribadi.
 Description: Artikel ini membahas pandangan pribadi mengenai ketidaksetujuan terhadap LGBT, termasuk argumen yang mendasari pandangan ini dan dampaknya pada masyarakat.
 
-# LGBT
+### LGBT
 
 Komunitas LGBT (Lesbian, Gay, Bisexual, dan Transgender) telah menjadi topik perdebatan yang signifikan di masyarakat. Meskipun banyak yang mendukung hak-hak LGBT, ada juga yang tidak setuju dengan keberadaan dan praktik LGBT. Artikel ini akan membahas pandangan saya yang tidak setuju dengan LGBT, serta alasan-alasan yang mendasari pandangan ini.
 
-## Alasan Moral dan Budaya
+### Alasan Moral dan Budaya
 
 Salah satu alasan utama ketidaksetujuan terhadap LGBT berasal dari keyakinan moral dan budaya. Banyak tradisi dan nilai-nilai yang dianut oleh masyarakat menganggap bahwa hubungan sesama jenis tidak sesuai dengan norma yang berlaku.
 
@@ -25,7 +25,7 @@ Norma tradisional seringkali mendefinisikan hubungan antara pria dan wanita seba
 - Ketertiban sosial
 
 
-## Dampak Sosial dan Kesehatan
+### Dampak Sosial dan Kesehatan
 
 Selain alasan moral dan budaya, ada juga kekhawatiran mengenai dampak sosial dan kesehatan dari praktik LGBT. Beberapa orang berpendapat bahwa hubungan sesama jenis dapat membawa konsekuensi negatif bagi individu dan masyarakat.
 
@@ -39,7 +39,7 @@ Isu kesehatan sering kali menjadi perhatian, di mana beberapa studi menunjukkan 
 - Kesehatan mental
 - Kesejahteraan sosial
 
-## Kesimpulan
+### Kesimpulan
 
 Pandangan ketidaksetujuan terhadap LGBT didasarkan pada berbagai alasan moral, budaya, dan kesehatan. Meskipun kontroversial, pandangan ini tetap dipegang oleh sebagian orang yang merasa bahwa hubungan sesama jenis tidak sesuai dengan nilai-nilai yang mereka anut. Diskusi dan debat mengenai isu ini terus berlanjut, mencerminkan kompleksitas dan sensitivitas topik ini dalam masyarakat modern.
 
