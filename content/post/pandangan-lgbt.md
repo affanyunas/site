@@ -44,5 +44,3 @@ Isu kesehatan sering kali menjadi perhatian, di mana beberapa studi menunjukkan 
 Pandangan ketidaksetujuan terhadap LGBT didasarkan pada berbagai alasan moral, budaya, dan kesehatan. Meskipun kontroversial, pandangan ini tetap dipegang oleh sebagian orang yang merasa bahwa hubungan sesama jenis tidak sesuai dengan nilai-nilai yang mereka anut. Diskusi dan debat mengenai isu ini terus berlanjut, mencerminkan kompleksitas dan sensitivitas topik ini dalam masyarakat modern.
 
 ---
-
-_Terima kasih telah membaca artikel ini._
