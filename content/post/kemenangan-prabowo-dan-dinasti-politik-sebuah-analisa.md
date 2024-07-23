@@ -6,7 +6,7 @@ Authors: Affan Yunas
 Summary: Menganalisis kemenangan Pak Prabowo dalam pemilihan presiden Februari lalu dan peran wakilnya, Gibran, dalam konteks dinasti politik di Indonesia serta mengaitkannya dengan tren di dunia crypto.
 Description: Artikel ini membahas kemenangan Pak Prabowo dalam pemilihan presiden Februari lalu dan bagaimana kemenangan tersebut mencerminkan fenomena dinasti politik di Indonesia. Artikel ini juga membahas bagaimana fenomena ini dapat dihubungkan dengan tren dalam dunia crypto dan pengamatan terhadap strategi politik.
 
-## Kemenangan Prabowo dan Fenomena Dinasti Politik: Sebuah Analisis Trend
+## Kemenangan
 
 Kemenangan Pak Prabowo Subianto dalam pemilihan presiden Februari lalu menandai babak baru dalam politik Indonesia. Tidak hanya karena Prabowo berhasil merebut kursi tertinggi di negeri ini, tetapi juga karena wakilnya, Gibran Rakabuming Raka, adalah anak presiden yang saat ini menjabat. Fenomena ini mengungkapkan dinamika yang menarik tentang dinasti politik dan bagaimana tren ini dapat dilihat dari berbagai perspektif, termasuk dalam dunia crypto yang sering kali saya amati.
 
