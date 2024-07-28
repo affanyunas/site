@@ -17,7 +17,7 @@ Pengalaman ini membuka mata @beingjinx dan partnernya mengenai kelemahan pendeka
 ### Eksploitasi sebagai Kunci Kesuksesan?
 Sebagai perbandingan, @beingjinx mengamati praktik eksploitasi yang dilakukan oleh seorang selebgram yang memiliki toko fashion. Karyawan selebgram tersebut digaji sangat rendah (1,75 juta rupiah saat masa percobaan yang berlangsung setahun), jam kerja panjang, dan tidak ada jaminan kesehatan. Bahkan, ijazah karyawan ditahan selama masa percobaan, dan mereka dikenakan denda besar jika keluar sebelum setahun bekerja.
 Praktik eksploitasi ini, meskipun kejam, ternyata menghasilkan keuntungan bersih sekitar 50 juta rupiah per bulan. Hal ini membuat @beingjinx merenung tentang kunci kesuksesan di usia muda yang seringkali melibatkan ketegaan, baik terhadap diri sendiri maupun orang lain.
-Akun Twitter @hobireb4han berkomentar, "Betul banget ini, dulu sempet ada pepatah yang bilang kalau kamu mau jadi orang biasa masih bisa putih, kalau mau kaya aja jadi abu-abu, kalau mau kaya banget jadi lah hitam."
+Akun Twitter [@hobireb4han](https://x.com/hobireb4han/status/1817477850464944518) berkomentar, "Betul banget ini, dulu sempet ada pepatah yang bilang kalau kamu mau jadi orang biasa masih bisa putih, kalau mau kaya aja jadi abu-abu, kalau mau kaya banget jadi lah hitam."
 
 ### Realita di Lapangan
 Dari kisah ini, kita dapat melihat betapa kompleksnya dunia bisnis dan kerja di Indonesia. Di satu sisi, ada upaya untuk menciptakan lingkungan kerja yang manusiawi dan adil, namun di sisi lain, praktik eksploitasi yang tidak manusiawi seringkali lebih menguntungkan secara finansial. Meski praktik eksploitasi memberikan keuntungan yang besar, dampaknya pada moral dan kesejahteraan karyawan sangat negatif.
