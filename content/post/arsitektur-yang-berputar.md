@@ -1,5 +1,4 @@
 Title: LLVM Sebagai Backend: Siklus Inovasi dalam Arsitektur Perangkat Lunak
-
 Date: 2024-07-28 15:54
 Category: Teknologi
 Tags: LLVM, Microservices, Monolitik, Modular, DevOps, Arsitektur Perangkat Lunak
