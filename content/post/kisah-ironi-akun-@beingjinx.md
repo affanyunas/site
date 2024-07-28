@@ -1,5 +1,5 @@
 Title: Eksploitasi di Dunia Kerja: Kisah Ironi akun @beingjinx dari Industri Fashion
-Date: 2024-07-20
+Date: 2024-07-28 16:44
 Category: Media
 Tags: Media Sosial, Eksploitasi, Industri Fashion
 Authors: Affan Yunas
