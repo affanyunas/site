@@ -24,5 +24,3 @@ Melihat adanya perbedaan ini, seringkali kita saling berdebat dengan sesama manu
 
 Sebagai pengguna, kita harus pintar dalam melihat perbedaan pandangan ini sebagai sesuatu yang wajar dan tidak perlu memperbesar konflik. Memahami karakteristik setiap platform dapat membantu kita dalam berinteraksi secara lebih bijak di dunia maya.
 
----
-
