@@ -1,4 +1,4 @@
-### Transformasi Mark Zuckerberg dan LLaMA AI: Membuka Jalan Baru dalam Dunia Teknologi
+Title: Transformasi Mark Zuckerberg dan LLaMA AI: Membuka Jalan Baru dalam Dunia Teknologi
 Date: 2024-07-28 12:02
 Category: Teknologi
 Tags: AI, Open Source, Meta, LLaMA, Mark Zuckerberg
