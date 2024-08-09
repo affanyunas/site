@@ -2,7 +2,7 @@
 setlocal
 
 :: URL remote yang diinginkan
-set DESIRED_URL=https://github.com/affanyunas/site.git
+set DESIRED_URL=https://github.com/tuanona/site.git
 
 :: Pindah ke direktori yang berisi file yang akan di-commit
 cd /d .\content\post
