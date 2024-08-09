@@ -22,7 +22,7 @@ SOCIAL = (('twitter', 'https://twitter.com/'),
           ('facebook', 'https://facebook.com/'),
          )
 
-DEFAULT_PAGINATION = 4
+DEFAULT_PAGINATION = 5
 
 SITEDESCRIPTION = 'gabut banget yakin'
 
