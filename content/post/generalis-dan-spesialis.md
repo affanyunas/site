@@ -12,13 +12,13 @@ Perdebatan antara generalis dan spesialis bukanlah hal baru. Kedua pendekatan in
 
 ### Pandangan tentang Generalis
 
-Generalists, atau orang yang memiliki berbagai keterampilan di berbagai bidang, sering kali dianggap sebagai individu yang fleksibel dan serba bisa. Mereka dapat memecahkan masalah dari berbagai perspektif dan menerapkan berbagai keterampilan yang dimilikinya untuk situasi yang berbeda. Namun, fleksibilitas ini terkadang dilihat sebagai kurangnya fokus atau kedalaman dalam satu bidang tertentu. Seperti yang Anda amati, generalis bisa saja dipandang kurang kompeten karena mereka cenderung 'melebarkan' keahlian mereka daripada mendalami satu area.
+Generalists, atau orang yang memiliki berbagai keterampilan di berbagai bidang, sering kali dianggap sebagai individu yang fleksibel dan serba bisa. Mereka dapat memecahkan masalah dari berbagai perspektif dan menerapkan berbagai keterampilan yang dimilikinya untuk situasi yang berbeda. Namun, fleksibilitas ini terkadang dilihat sebagai kurangnya fokus atau kedalaman dalam satu bidang tertentu. Seperti yang saya amati, generalis bisa saja dipandang kurang kompeten karena mereka cenderung 'melebarkan' keahlian mereka daripada mendalami satu area.
 
 Namun, ini bukan berarti generalis tidak kompeten. Sebaliknya, kemampuan mereka untuk mengelola berbagai aspek pekerjaan dan belajar dengan cepat dari berbagai sumber adalah kekuatan yang signifikan. Di dunia yang terus berubah dan berkembang, memiliki berbagai keterampilan bisa menjadi keunggulan besar.
 
 ### Spesialis: Ahli dalam Satu Bidang
 
-Di sisi lain, spesialis adalah individu yang mendalami satu bidang tertentu dan menguasai setiap aspek dalam area tersebut. Seperti yang Anda gambarkan dengan contoh dokter gigi yang tidak akan melakukan operasi jantung, spesialisasi adalah tentang memahami secara mendalam satu area dan menjadi yang terbaik di bidang itu. Spesialisasi ini sering kali dihargai dalam situasi yang membutuhkan keahlian tingkat tinggi dan pemahaman yang mendalam.
+Di sisi lain, spesialis adalah individu yang mendalami satu bidang tertentu dan menguasai setiap aspek dalam area tersebut. Seperti yang saya gambarkan dengan contoh dokter gigi yang tidak akan melakukan operasi jantung, spesialisasi adalah tentang memahami secara mendalam satu area dan menjadi yang terbaik di bidang itu. Spesialisasi ini sering kali dihargai dalam situasi yang membutuhkan keahlian tingkat tinggi dan pemahaman yang mendalam.
 
 Namun, seperti halnya generalis, spesialis juga menghadapi tantangan. Mereka mungkin kurang fleksibel ketika dihadapkan pada masalah di luar area keahlian mereka. Spesialisasi juga bisa menjadi penghalang ketika industri atau teknologi berubah secara drastis, memaksa mereka untuk belajar kembali atau bahkan beralih ke bidang lain.
 
@@ -30,4 +30,4 @@ Pilihan antara menjadi generalis atau spesialis sering kali ditentukan oleh kont
 
 ### Akhirnya
 
-Apakah Anda memilih untuk menjadi generalis atau spesialis, kedua jalur ini memiliki kelebihan dan tantangan masing-masing. Perdebatan ini mungkin tidak akan pernah selesai, karena pada akhirnya, ini adalah tentang bagaimana Anda menggunakan keterampilan dan pengetahuan Anda untuk menghadapi tantangan di dunia nyata. Lebih penting lagi, apakah ini semua benar-benar tentang kompetensi atau apakah itu hanya konstruksi sosial yang kita ciptakan untuk memahami dan menavigasi dunia di sekitar kita? Anda yang menentukan.
+Apakah saya memilih untuk menjadi generalis atau spesialis, kedua jalur ini memiliki kelebihan dan tantangan masing-masing. Perdebatan ini mungkin tidak akan pernah selesai, karena pada akhirnya, ini adalah tentang bagaimana saya dan kalian akan menggunakan keterampilan dan pengetahuan kalian untuk menghadapi tantangan di dunia nyata. Lebih penting lagi, apakah ini semua benar-benar tentang kompetensi atau apakah itu hanya konstruksi sosial yang kita ciptakan untuk memahami dan menavigasi dunia di sekitar kita? kita yang menentukan.
