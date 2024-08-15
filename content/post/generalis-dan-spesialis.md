@@ -1,6 +1,6 @@
 Title:Generalis vs Spesialis: Konstruksi Sosial atau Realitas?  
 Date: 2024-08-15  
-Category: Refleksi  
+Category: Sosial Budaya 
 Tags: Generalis, Spesialis, Konstruksi Sosial, Skill  
 Authors: Affan Yunas  
 Summary: Perdebatan antara generalis dan spesialis telah berlangsung lama, namun apakah ini benar-benar masalah nyata atau hanya konstruksi sosial? Artikel ini mengeksplorasi pandangan berbeda tentang kedua peran tersebut dalam masyarakat dan dunia kerja.  
